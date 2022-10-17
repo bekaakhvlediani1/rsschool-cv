@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(134, 95, 95);
+ }
+ .header-part{
+    flex-direction: column;
+    align-items:center;
+    display: flex;
+ }
+ .header-part img{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.navigation{
+    justify-content: center;
+    display: flex;
+}
+  nav li {
+    display: inline;
+}
+   nav li a{
+    font-size:x-large;
+    padding: 10px;
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+.content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-info{
+    color: black;
+}
+.picture {
+    margin: 10px;
+    width: 100px;
+}
+ h2 {
+    color: black;
+ }
+ .maincontent {
+    color: black;
+ }
+ .maincontent ul{
+    list-style: none;
+ }
+ .maincontent ul a{
+    text-decoration: none;
+    color: black;
+ }
+.footer{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.github a{
+    text-decoration: none;
+    color: black;
+}
+.rschool img{
+    width: 100px;
+    height: 50px;
+    }
+
